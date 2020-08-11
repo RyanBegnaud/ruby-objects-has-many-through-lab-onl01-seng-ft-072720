@@ -16,5 +16,6 @@ class Doctor
   end
   
   def patients 
+    Appointments.all.collect {|p| p
 
 end
