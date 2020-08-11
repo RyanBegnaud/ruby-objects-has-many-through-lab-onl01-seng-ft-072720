@@ -6,6 +6,8 @@ class Doctor
     @name = name 
     @@all << self 
   end
+  
+  def self.all 
 
   def appointments
     Appointment.all.select {|a| a.doctor == self}
