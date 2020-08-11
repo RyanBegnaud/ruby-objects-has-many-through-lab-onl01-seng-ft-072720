@@ -25,5 +25,5 @@ class Doctor
       p.patient 
     end
   end
-
+end
 end
