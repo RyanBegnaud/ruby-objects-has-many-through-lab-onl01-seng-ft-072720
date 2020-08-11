@@ -20,7 +20,7 @@ class Doctor
   end
   
   def patients 
-    Appointment.all.collect {|p| p.doctor == self}
+    Appointment.all.select {|p| p.doctor == self}
   end
 
 end
