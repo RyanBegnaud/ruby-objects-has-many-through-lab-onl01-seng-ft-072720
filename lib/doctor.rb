@@ -6,4 +6,6 @@ class Doctor
     @name = name 
     @@all << self 
   end
+
+  def appointments
 end
