@@ -21,6 +21,6 @@ class Artist
   end
 
   def genres 
-    Genre.all
+    Genre.all.select {|g| binding.pry }
 end
 end
