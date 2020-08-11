@@ -23,4 +23,6 @@ class Patient
     Appointment.all.collect do |a|
       if a.patient == self 
         a.doctor 
+      end
+    end
 end
