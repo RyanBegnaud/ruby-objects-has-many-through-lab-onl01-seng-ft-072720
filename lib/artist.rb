@@ -21,5 +21,6 @@ class Artist
   end
 
   def genres 
+    Genre.all
 end
 end
