@@ -20,7 +20,7 @@ class Doctor
   end
   
   def patients 
-    Appointment.all.collect {|p| binding.pry}
+    Appointment.all.collect {|p| p.doctor == self}
   end
 
 end
