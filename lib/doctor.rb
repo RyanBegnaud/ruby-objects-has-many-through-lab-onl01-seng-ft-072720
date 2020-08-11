@@ -20,7 +20,7 @@ class Doctor
   end
   
   def patients 
-    Appointments.all.collect {|p| binding.pry}
+    Appointment.all.collect {|p| binding.pry}
   end
 
 end
